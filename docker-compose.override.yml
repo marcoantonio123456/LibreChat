@@ -1,5 +1,10 @@
 version: '3.4'
 
+api:
+  volumes:
+  - type: bind
+    source: ./librechat.yaml
+    target: /app/librechat.yaml
 # Please consult our docs for more info: https://www.librechat.ai/docs/configuration/docker_override
 
 # TO USE THIS FILE, FIRST UNCOMMENT THE LINE ('services:')
@@ -24,14 +29,7 @@ version: '3.4'
 
 # ---------------------------------------------------
 
-# services:
 
-# # USE LIBRECHAT CONFIG FILE
-#   api:
-#     volumes:
-#     - type: bind
-#       source: ./librechat.yaml
-#       target: /app/librechat.yaml
 
 # # LOCAL BUILD
 #   api:
