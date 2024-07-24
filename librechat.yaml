@@ -38,15 +38,9 @@ endpoints:
       baseURL: "https://api.mistral.ai/v1"
       models:
         default: [
-          "mistral-large-latest",
-          "open-mistral-nemo",
-          "codestral-latest",
-          "mistral-embed",
-          "open-mistral-7b",
-          "open-mixtral-8x7b",
-          "open-mixtral-8x22b",
-          "mathstral",
-          "open-codestral-mamba",
+          "mistral-large-2407",
+          "mistral-large-2402",
+          "codestral-2405"
           ]
         fetch: true
       titleConvo: true
