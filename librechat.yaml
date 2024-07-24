@@ -40,6 +40,8 @@ endpoints:
         default: [
           "mistral-large-2407",
           "mistral-large-2402",
+          "open-mistral-nemo-2407",
+          "open-mistral-nemo",
           "codestral-2405"
           ]
         fetch: true
